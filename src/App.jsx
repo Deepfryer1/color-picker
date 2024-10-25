@@ -5,7 +5,7 @@ import Color from './Color';
 
 const App = () => {
 
-  const [selectedColor, setSelectedColor] = useState('#ff0000');
+  const [selectedColor, setSelectedColor] = useState('');
 
   return (
     <div id="container">
